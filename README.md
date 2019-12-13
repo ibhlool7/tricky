@@ -18,5 +18,5 @@ Programming trick from code to IDE !!!
   ```
 - emoji
   - install **https://marketplace.visualstudio.com/items?itemName=devzstudio.emoji-snippets**
-  - use **https://emojipedia.org/hot-springs/** to choose and copy imoji
+  - use **https://emojipedia.org/hot-springs/** to choose and copy emoji
   - have fun in vscode and git commits ✌️
