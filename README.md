@@ -37,5 +37,5 @@ Programming trick from code to IDE !!!
 
    [requires]
   python_version = "3.7"
-```
+   ```
   2. use `pipenc sync` in command line
