@@ -20,3 +20,22 @@ Programming trick from code to IDE !!!
   - install **https://marketplace.visualstudio.com/items?itemName=devzstudio.emoji-snippets**
   - use **https://emojipedia.org/hot-springs/** to choose and copy emoji
   - have fun in vscode and git commits ✌️
+##python formatter in vscode
+- a boilerplate for python formater
+  1. add following text in pipfile:
+  ```
+  [[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+
+[packages]
+
+[requires]
+python_version = "3.7"
+```
+  2. use `pipenc sync` in command line
