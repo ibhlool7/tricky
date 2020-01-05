@@ -25,17 +25,17 @@ Programming trick from code to IDE !!!
   1. add following text in pipfile:
   ```
   [[source]]
-name = "pypi"
-url = "https://pypi.org/simple"
-verify_ssl = true
+  name = "pypi"
+  url = "https://pypi.org/simple"
+  verify_ssl = true
 
-[dev-packages]
-autopep8 = "*"
-pylint = "*"
+  [dev-packages]
+  autopep8 = "*"
+  pylint = "*"
 
-[packages]
+  [packages]
 
-[requires]
-python_version = "3.7"
+   [requires]
+  python_version = "3.7"
 ```
   2. use `pipenc sync` in command line
